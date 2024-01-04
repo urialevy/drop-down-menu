@@ -1,7 +1,7 @@
 {
-  "name": "webapp-template",
+  "name": "drop-down-menu",
   "version": "1.0.0",
-  "description": "",
+  "description": "A drop down menu that you can drop into most web apps",
   "main": "src/app.js",
   "scripts": {
     "build": "webpack",

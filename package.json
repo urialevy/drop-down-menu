@@ -1,5 +1,5 @@
 {
-  "name": "drop-down-menu",
+  "name": "uria_l_drop-down-menu",
   "version": "1.0.0",
   "description": "A drop down menu that you can drop into most web apps",
   "main": "src/app.js",

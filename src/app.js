@@ -1,6 +1,10 @@
 import "./style.css";
 
-// let oneNode = document.createElement("h1");
-// oneNode.classList.add("text-6xl", "underline");
-// oneNode.innerHTML = "hello world";
-// document.body.appendChild(oneNode);
+const navMenu = document.getElementById("menu");
+const menuBtn = document.getElementById("menubtn");
+menuBtn.addEventListener("mouseover", function () {
+  navMenu.querySelector("ul").style.display = "contents";
+});
+document.getElementById("menu").addEventListener("mouseleave", function () {
+  navMenu.querySelector("ul").style.display = "none";
+});

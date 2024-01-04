@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
+    <title>Dropdown Menu</title>
   </head>
   <body>
-    <div class="flex flex-row justify-between">
-      <div class="flex flex-row basis-1/4 justify-center">
-        <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App</h1>
-      </div>
-      <div class="flex basis-1/4 justify-start">2</div>
-      <div class="flex basis-1/4 justify-around">3</div>
-      <div class="flex basis-1/4 justify-end">4</div>
-    </div>
+    <div id="menu" class="w-36 ">
+      <button id="menubtn" class=" w-28 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Dropdown Menu</button>
+      <ul>
+        <li class="dropdown bg-slate-600  text-white font-bold hover:bg-white hover:text-black rounded py-2 px-4 w-24" ><a href="#">Menu 1</a></li>
+        <li class="dropdown bg-slate-600 text-white font-bold hover:bg-white hover:text-black rounded py-2 px-4 w-24"><a href="#">Menu 2</a></li>
+        <li class="dropdown bg-slate-600 text-white font-bold hover:bg-white hover:text-black rounded py-2 px-4 w-24"><a href="#">Menu 3</a></li>
+        <li class="dropdown bg-slate-600 text-white font-bold hover:bg-white hover:text-black rounded py-2 px-4 w-24"><a href="#">Menu 4</a></li>
+        <li class="dropdown bg-slate-600 text-white font-bold hover:bg-white hover:text-black rounded py-2 px-4 w-24"><a href="#">Menu 5</a></li>
+      </ul>
+    </nav></div>
     <script src="bundle.js"></script>
   </body>
 </html>
